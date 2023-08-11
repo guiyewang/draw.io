@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T02:49:44.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200" etag="eodwSeCeFyMI9FhoEQgU" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T02:50:19.650Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200" etag="v2FZll1Fb3epUbXJEtTm" version="21.6.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2037" dy="226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2803" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jXn1shlYfxqNaA9wHm0G-10" value="ModulesAssembled_ControlAssembleExecute(拆装执行流程)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1060" y="750" width="430" height="138" as="geometry">
+          <mxGeometry x="1060" y="750" width="430" height="164" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -18,14 +18,17 @@
         <mxCell id="jXn1shlYfxqNaA9wHm0G-64" value="-procedureHitInfo(流程提示信息)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="jXn1shlYfxqNaA9wHm0G-10">
           <mxGeometry y="52" width="430" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="jXn1shlYfxqNaA9wHm0G-65" value="-isNext(是否进行下一步)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="jXn1shlYfxqNaA9wHm0G-10">
+          <mxGeometry y="78" width="430" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="jXn1shlYfxqNaA9wHm0G-11" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" vertex="1" parent="jXn1shlYfxqNaA9wHm0G-10">
-          <mxGeometry y="78" width="430" height="8" as="geometry" />
+          <mxGeometry y="104" width="430" height="8" as="geometry" />
         </mxCell>
         <mxCell id="jXn1shlYfxqNaA9wHm0G-12" value="+Initialization(GameObject parentOBJ)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="jXn1shlYfxqNaA9wHm0G-10">
-          <mxGeometry y="86" width="430" height="26" as="geometry" />
+          <mxGeometry y="112" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jXn1shlYfxqNaA9wHm0G-13" value="+Open_SamllProcess(SmallProcess smallProcess)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="jXn1shlYfxqNaA9wHm0G-10">
-          <mxGeometry y="112" width="430" height="26" as="geometry" />
+          <mxGeometry y="138" width="430" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jXn1shlYfxqNaA9wHm0G-15" value="Modules_Assemble(拆装模块类)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1150" y="1130" width="430" height="320" as="geometry">
