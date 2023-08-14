@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T01:29:47.866Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="fqT_RuJZotnPRw6V0BWN" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T01:33:01.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="IAJA4CWHHMsHMmQ2tRDd" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3033" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -431,7 +431,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iRLeTvgN0892KO8ONOdt-0" value="ModulesAssembled_MonoExecuteModelClick(执行步骤模型点击)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2580" y="1070" width="430" height="110" as="geometry">
+          <mxGeometry x="2960" y="1090" width="430" height="110" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -448,7 +448,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iRLeTvgN0892KO8ONOdt-11" value="ModulesAssembled_MonoExecuteModelClickVR(执行步骤模型点击VR)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="3040" y="1070" width="430" height="190" as="geometry">
+          <mxGeometry x="3420" y="1090" width="430" height="190" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -472,6 +472,56 @@
         </mxCell>
         <mxCell id="iRLeTvgN0892KO8ONOdt-19" value="+Set_State(int nowState)(设置当前状态)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-11">
           <mxGeometry y="164" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.484;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iRLeTvgN0892KO8ONOdt-20" target="jXn1shlYfxqNaA9wHm0G-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-20" value="ModulesAssembled_SmallProcessDataModelClick(点击小步骤流程PC)" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2230" y="1070" width="430" height="372" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-21" value="#modeClickParameter" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="26" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-22" value="#monoExecuteModelClickDic(模型点击基类字典)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="52" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-23" value="-completeCallbace(完成回调)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="78" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-24" value="-meshColliders(碰撞体集合)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="104" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-25" value="#stepExecuteState(执行到那个状态)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="130" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-26" value="#modulesAssembleProcessExecuteInfo(拆装的流程信息xml类)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="156" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-27" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="182" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-28" value="+Init_Model(List&lt;string&gt; models,Action&lt;string&gt; completeCallbace)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="190" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-29" value="+Set_Parameter(InfoArguments infoArguments)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="216" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-30" value="+Open_Process()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="242" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-31" value="+Complete_Callbace()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="268" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-32" value="#ConditionInjectEndCallback(bool isEnd)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="294" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-33" value="#MeshCollider(List&lt;string&gt;vs,bool enabledCollider)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="320" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iRLeTvgN0892KO8ONOdt-34" value="#Set_ModelScript&lt;T&gt;(list&lt;string&gt;models,Action&lt;string&gt; copmleteCallbace)where T: ModulesAssembled_MonoExecuteBase" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontColor=#393C56;rounded=0;" vertex="1" parent="iRLeTvgN0892KO8ONOdt-20">
+          <mxGeometry y="346" width="430" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
