@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T01:39:39.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="kf1OIe9zKLd9F13N7pCz" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-16T01:40:00.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="y_AQjwt-Z26ZkGMFADc8" version="21.6.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="拆装类图">
     <mxGraphModel dx="7170" dy="4425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -716,7 +716,7 @@
         <mxCell id="NJDPdJI8eSbghrdpaWgC-51" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-43" target="NJDPdJI8eSbghrdpaWgC-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NJDPdJI8eSbghrdpaWgC-52" value="注入完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="NJDPdJI8eSbghrdpaWgC-51">
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-52" value="注入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="NJDPdJI8eSbghrdpaWgC-51">
           <mxGeometry x="-0.0667" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
