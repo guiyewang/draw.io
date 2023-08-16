@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T01:36:11.544Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="DqMQDaAq_rfFS692SDNI" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-16T01:39:39.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="kf1OIe9zKLd9F13N7pCz" version="21.6.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="拆装类图">
     <mxGraphModel dx="7170" dy="4425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -724,11 +724,41 @@
         <mxCell id="NJDPdJI8eSbghrdpaWgC-43" value="执行流程" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-72" y="421" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NJDPdJI8eSbghrdpaWgC-47" value="等待注入" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-55" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-47" target="NJDPdJI8eSbghrdpaWgC-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-63" value="取消" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="NJDPdJI8eSbghrdpaWgC-55">
+          <mxGeometry x="0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-58" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-47" target="NJDPdJI8eSbghrdpaWgC-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="228" y="601" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-59" value="注入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="NJDPdJI8eSbghrdpaWgC-58">
+          <mxGeometry x="-0.35" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-47" value="暂停下一步骤流程等待注入" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="168" y="421" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NJDPdJI8eSbghrdpaWgC-50" value="" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-61" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-50" target="NJDPdJI8eSbghrdpaWgC-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-50" value="根据ID插入故障" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-72" y="601" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.992;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-54" target="NJDPdJI8eSbghrdpaWgC-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-54" value="激活流程" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="408" y="421" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-60" value="执行流程" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="781" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
