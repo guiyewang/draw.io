@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T09:54:55.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="KWbBT4V08RDDMHlkOy0Y" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-16T01:30:09.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="l4LcUs_O0FBjtOuuGlAW" version="21.6.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="拆装类图">
     <mxGraphModel dx="7170" dy="4425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -629,12 +629,66 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IJIHAzK7DIT2vUG_1XkN" name="故障处理活动图">
-    <mxGraphModel dx="1779" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2179" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Wlwl1j-NeH8PI0XZatic-1" value="故障流程" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="69" width="120" height="60" as="geometry" />
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Wlwl1j-NeH8PI0XZatic-1" target="NJDPdJI8eSbghrdpaWgC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-6" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="Wlwl1j-NeH8PI0XZatic-1" target="NJDPdJI8eSbghrdpaWgC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlwl1j-NeH8PI0XZatic-1" value="故障注入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-312" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-1" target="Wlwl1j-NeH8PI0XZatic-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-429" y="115" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-3" target="NJDPdJI8eSbghrdpaWgC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-3" target="NJDPdJI8eSbghrdpaWgC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-3" value="开始注入" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-5" target="NJDPdJI8eSbghrdpaWgC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-5" value="管理平台注入" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-312" y="347" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;elbow=vertical;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-7" target="NJDPdJI8eSbghrdpaWgC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-7" value="选择注入" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="168" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-9" target="NJDPdJI8eSbghrdpaWgC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-9" value="随机注入" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-17" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-13" target="NJDPdJI8eSbghrdpaWgC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-13" value="初始化流程和故障" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="NJDPdJI8eSbghrdpaWgC-16" target="NJDPdJI8eSbghrdpaWgC-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-16" value="执行流程" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NJDPdJI8eSbghrdpaWgC-20" value="等待注入" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="785" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
